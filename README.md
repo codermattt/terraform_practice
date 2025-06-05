@@ -11,4 +11,5 @@ Before using this Terraform project, ensure you have the following installed:
 
 ## Notes
 - I setup the infrastructure on vscode, then run the terrafrom commands on git Bash terminal in vscode
-- The different projects (set up in each excercise folder) build on top of each other      
+- The different projects (set up in each excercise folder) build on top of each other
+- The private keys of the key pairs were removed for security purposes. 
