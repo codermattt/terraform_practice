@@ -37,3 +37,12 @@ resource "aws_ec2_instance_state" "web-state" {
   instance_id = aws_instance.web.id
   state       = "running"
 }
+
+output "webPublicIP" {
+  description = "Public IP of the EC2 instance"
+  value       = aws_instance.web.public_ip
+}
+output "webPrivateIP" {
+  description = "Private IP of the EC2 instance"
+  value       = aws_instance.web.private_ip
+}
